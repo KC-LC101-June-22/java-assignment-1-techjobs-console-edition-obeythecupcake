@@ -121,7 +121,7 @@ public class TechJobs {
     private static void printJobs(ArrayList<HashMap<String, String>> someJobs) {
         String line = "\n";
         if (someJobs.size() == 0){
-            System.out.println("No Results.");
+            System.out.println("No Results");
             return;
         }
         for (HashMap<String,String> job : someJobs){
@@ -132,7 +132,7 @@ public class TechJobs {
                 //stars += (jobColumn.getKey() + jobColumn.getValue());
                 System.out.println(jobColumn.getKey() + ": " + jobColumn.getValue());
             }
-            System.out.println(stars);
+            System.out.println(stars); // testing
         }
 
     }
